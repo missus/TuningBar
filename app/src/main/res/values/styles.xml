@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="LayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/custom_padding</item>
+        <item name="android:layout_marginRight">@dimen/custom_padding</item>
+        <item name="android:layout_marginLeft">@dimen/custom_padding</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/custom_padding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="MainTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/custom_padding</item>
+        <item name="android:layout_marginRight">@dimen/custom_padding</item>
+        <item name="android:layout_marginBottom">@dimen/custom_padding</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/main_text_size</item>
+    </style>
+</resources>
